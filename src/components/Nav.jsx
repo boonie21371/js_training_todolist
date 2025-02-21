@@ -12,7 +12,7 @@ const Nav = () => {
       <ul className="flex flex-row gap-x-5">
         <li>
           {" "}
-          <Link to={"/"} className="text-2xl font-black hover:text-green-500">
+          <Link to={"/add"} className="text-2xl font-black hover:text-green-500">
             +
           </Link>
         </li>
