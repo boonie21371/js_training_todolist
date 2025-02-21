@@ -11,9 +11,9 @@ import Todo from "@/pages/Todo";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={MainLayout}>
-      <Route index element={Todos} />
-      <Route path="/todo/:id" element={Todo} />
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<Todos />} />
+      <Route path="/todo/:id" element={<Todo />} />
     </Route>
   )
 );
