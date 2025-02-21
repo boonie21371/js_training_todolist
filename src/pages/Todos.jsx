@@ -30,7 +30,7 @@ const Todos = () => {
 
   return (
     <div>
-      <Card className="w-[750px]">
+      <Card className="w-[750px] px-5">
         <CardHeader>
           <CardTitle>To-Do's </CardTitle>
           <CardDescription>Here are your to-do lists:</CardDescription>
